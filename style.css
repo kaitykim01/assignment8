@@ -147,7 +147,11 @@ a:hover{
 
 /** About Page Styles **/
 .about-text {
-    text-align: left;   
+    text-align: left;  
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+
 }
 
 p{
