@@ -1,0 +1,47 @@
+{r} [Figma Prototype Link] (https://www.figma.com/file/leskKwi5xYpcfaXLjqBgbt/Assignment-7---Personal-Website?node-id=0%3A1 )
+
+{r} [Hosting Link] (https://kaitykim01.github.io/assignment8/)
+
+{r} [GitHub Repo] (https://github.com/kaitykim01/assignment8)
+
+DESCRIPTION
+    For my final project, I implemented a web portfolio that showcases my skills, experiences, and passions as a pre-health student. 
+    The web portfolio was designed to be more personable compared to a more professional CV pdf. 
+    I showcase some experiences that I would have on my CV. The interactability of the site allows me to describe each experience in more detail, including 
+    more of my voice about what made each of the experiences meaningful to me. It is interesting and engaging because it is animated to bring out my personality/energy, and 
+    also very simple in design that it is not difficult to interact with. The target audience would be med school admissions officers and medical professionals 
+    who I might collaborate with in future experiences.
+
+USING MY WEBSITE
+1. HOME PAGE 
+* Watch the engaging typewriter carousel implemented for an introduction! 
+* Clicking the flower emoji at the top left corner at any time will take you back to this home page
+* Click experiences to go to a page about my experiences
+* Click about me on the nav bar to go to a page about me
+
+2. EXPERIENCES PAGE 
+* This page features a Card Deck (Bootstrap) that includes a hover animation which communicates the affordance that it is clickable
+* Clicking on any card will take you to a new page with more details about that specific experience
+
+3. DETAILS PAGE 
+* Read more about the specific experience! 
+* Interacting with the blue next/previous experience buttons allows you to read about the next experience details page without having to return to the card deck view 
+
+4. ABOUT ME 
+* Read more about me on the left column
+* The right column includes a clickable link where you can access a pdf version of my CV 
+
+EXTERNAL LIBRARIES
+    Bootstrap
+        I chose to use bootstrap because it was easy to implement with its many components and many options for styling HTML elements.
+        The grid system was very intuitive and easy to use. 
+        jQuery is built in, along with jQuery plugins that I was helpful in including more complex and engaging animations, such as the typewriter carousel. 
+
+ITERATION FROM HW7
+    I iterated my HW7 mockups on Figma by starting with the card deck as my main page. In experimenting with the prototyping, I knew that I had wanted to include 
+    details pages for each experience card on the main page. After peer review and seeing other successful prototypes, though, I realized the importance of having a 
+    main home page that showcases little information with a greeting. Using bootstrap styles allowed me to implement my design in a more complex and engaging way than I had expected.
+
+MAJOR CHALLENGES 
+    A challenge I had in implementing my design was getting familiarized with Bootstrap, as I am new to programming in HTML/CSS/JS. 
+    The most difficult concept for me to understand was how to include the correct plug in source codes and set up the head environment. 
