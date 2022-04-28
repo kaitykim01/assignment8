@@ -58,17 +58,7 @@ a:hover{
     float: right;
   }
 
-.glyphicon:hover{
-      -webkit-transform: rotateZ(720deg);
-      -moz-transform: rotateZ(720deg);
-      transform: rotateZ(720deg);
-}
 
-.glyphicon{
-    float:left;
-    font-size:50px;
-
-}
 
 /** Main Content **/
 .cover {
@@ -88,8 +78,6 @@ a:hover{
 .whitecontainer {
     background-color: rgba(255, 255, 255, 0.75);
     border-radius: 25px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 /** Typewriter **/
@@ -191,6 +179,11 @@ p{
     margin-top: 3em;
     margin-left: 2em;
     text-align: left;
+}
+
+#flexx{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
