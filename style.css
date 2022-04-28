@@ -1,0 +1,208 @@
+/*** Basic ***/
+html,
+body {
+    height: 100%;
+    background: radial-gradient(circle at top left,#E9C46A,#F4A261,#E76F51,#d4d270, rgb(56, 197, 233));
+}
+
+body {
+    display: flex;
+
+}
+
+.cover-container {
+    max-width: 70em;
+  }
+
+
+
+/*** Links ***/
+a,
+a:focus,
+a:hover{
+    color: rgb(49, 5, 5);
+}
+
+
+/** Header **/
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgb(49, 5, 5,0.75);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgb(49, 5, 5, 0.75);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+
+.masthead-brand {
+    float: left;
+}
+.nav-masthead {
+    float: right;
+  }
+
+.glyphicon:hover{
+      -webkit-transform: rotateZ(720deg);
+      -moz-transform: rotateZ(720deg);
+      transform: rotateZ(720deg);
+}
+
+.glyphicon{
+    float:left;
+    font-size:50px;
+
+}
+
+/** Main Content **/
+.cover {
+  padding: 0 1.5rem;
+}
+
+
+.cover-heading { 
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 4em;
+    padding: 0.2em;
+    max-width: 36em;
+    color: rgb(49, 5, 5);
+}
+
+.whitecontainer {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 25px;
+}
+
+/** Typewriter **/
+/* hides the content when page is loaded */
+.tt { 
+    display:none;
+}
+
+.lead {
+    font-size: 2em;
+}
+
+/*blinking cursor for typewriter*/
+.ttt::after { 
+    content : "/0020";
+    animation: pulse 1s infinite;
+    color: transparent;
+    border-right: 3px solid black;
+    margin-left: 0px;
+}
+
+@keyframes pulse {
+    0%{
+       border-right: 3px solid  black;}
+    50% {
+       border-right: 3px solid  transparent;
+    }
+    100% {
+       border-right: 3px solid  black;
+    }
+}
+
+/*** Experiences Page - Card Deck ***/
+
+.card {
+    border-radius: 20px;
+    max-width: 20em;
+    background: rgb(255, 253, 246); 
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+}
+
+/**** CITATION: Hover Bootstrap Card Effects created by Corey: https://ordinarycoders.com/blog/article/codepen-bootstrap-card-hovers ***/
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card-img-top { 
+    max-block-size: 15em;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+}
+
+.card-body {
+    text-align: left;
+}
+
+.card-text{
+    margin-top:0;
+    margin-left: 0;
+}
+
+/** About Page Styles **/
+.about-text {
+    text-align: left;   
+}
+
+p{
+    font-size: 1.2em;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.resume-container {
+    background: rgba(87, 10, 10, 0.75);
+    border-radius: 20px;
+    max-width: 30em;
+    padding: 0.5em;
+}
+
+.resume-text {
+    color: white;
+    text-align: left;
+    font-size: 1.3em;
+    margin-left: 0.5em;
+    margin-top: 1em;
+}
+
+.transparent-container {
+    background: rgba(233, 255, 205, 0.75);
+    border-radius: 20px;
+    max-width: 30em;
+    padding: 0.5em;
+    margin-top: 3em;
+    margin-left: 2em;
+    text-align: left;
+}
+
+
+/** Experience Details Pages **/
+.details-img {
+    border-radius: 10px;
+    margin-top: 4em;
+    min-height: 15em;
+}
+
+.img-fluid{
+    max-width: 20em;
+}
+
+.btn{
+    margin-top: 5em;
+}

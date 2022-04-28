@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <title>Home Page</title>
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1'> <!--mobile friendly bootstrap-->
+    <!-- Bootstrap styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">  
+    <!-- Custom styles-->
+    <link href='style.css' rel='stylesheet'>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="index.min.js"></script>
+    <script src='main.js'></script>
+
+</head>
+<body class='text-center'>
+    <!-- CITATION: Bootstrap Card Deck - https://getbootstrap.com/docs/4.0/components/card/#card-decks -->
+    <div class='cover-container d-flex w-100 h-100 p-3 mx-auto flex-column'>
+        <!-- Header nav bar -->
+        <header class='masthead mb-5'>
+            <div class='inner'> 
+                <a href='index.html'><h4 class='masthead-brand'> &#127799; sohee</h4></a>
+                <nav class='nav nav-masthead justify-content-center'>
+                    <a class='nav-link' href='experiences.html'>experiences</a>
+                    <a class='nav-link' href='about.html'>about</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- White Container -->
+        <div class='whitecontainer d-flex w-200 h-auto' >
+            <div class='container about-text my-3'>
+                <h2> Yttri Lab, <em> Student Researcher</em> </h2>
+                <p> This past Fall 2021 semester, I have had the pleasure of joining the Yttri Lab team, studying by computational methods how neural circuits lead to certain behavior. This project is a continuation of a summer project from a previous year. I worked very closely with Alex Hsu, a graduate student in the lab, who directed all my training for the project.</p>
+                <p>Overall, we aim to understand what constitutes behavior for the brain. My project specifically utilizes closed-loop stimulation to correlate OCD behavior (excessive face-grooming) with neuronal activity. </p>
+                <p>I have learned to refine pose estimations and program on DeepLabCut to train models that can predict mouse behavior in an open field. The B-SOiD algorithm that Alex Hsu and Dr. Yttri developed was used to identify position patterns of the mouse and discover spontaneous behavior. B-SOiD’s kinematic sensitivity and ability to dissociate behavior accurately helps us gain a deeper understanding about OCD behavior. </p>
+            </div>
+
+            <div class='container my-4'>
+                <div class=' mx-auto'> 
+                    <img src="yttri-img.jpeg" class="img-fluid details-img shadow alt="Yttri Lab image">
+
+                </div>
+                <div class='p-5 mx-auto'>
+                    <button type="button" class="btn btn-secondary shadow-sm"> < Prev. Experience </button>
+                    <a href='kdac.html'>
+                        <button type="button" class="btn btn-primary shadow-sm"> Next Experience > </button>
+                    </a> 
+
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
